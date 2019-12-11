@@ -1,0 +1,30 @@
+// .scss personalizado para proiectus.cat - aquí va todo lo que sobreescribiremos
+
+    /* webfonts para los headings */
+
+        //importamos googlefont montserrat
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+        
+        //Sobreescribimos la variable de los headings
+        $headings-font-family:'Montserrat', sans-serif;
+        $headings-font-weight: 600;
+
+        //sobreescribimos elementos de form
+        form{
+            h1{
+                font-weight: 800;
+            }
+        }
+
+
+
+// (Opción A): Librería completa de bootstrap 4
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// aquí van estilos no preestablecidos en bootstrap
+    
+    /* _formulario_proiectus */
+    @import "formulario_proiectus";
+
+    

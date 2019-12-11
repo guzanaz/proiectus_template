@@ -1,0 +1,27 @@
+/* _formulario_proiectus */
+
+body{
+    background: $yellow;;
+}
+
+form{
+    .contact-image{
+        text-align: center;
+        img{
+            border-radius: 8%;
+            width: 8%;
+            margin-top: -13%;
+            object-fit: scale-down;
+            background:$white;
+        }
+    }
+    
+    .contact-form {
+        background:$white;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+}

@@ -1,0 +1,24 @@
+{
+  "name": "sprint_3_daniela",
+  "version": "1.0.0",
+  "description": "sass personal customization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guzanaz/Sprint_3_daniela.git"
+  },
+  "author": "Daniela Gallardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guzanaz/Sprint_3_daniela/issues"
+  },
+  "homepage": "https://github.com/guzanaz/Sprint_3_daniela#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.0"
+  }
+}
