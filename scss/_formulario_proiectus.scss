@@ -1,19 +1,16 @@
-/* _formulario_proiectus */
 
-body{
-    background: $yellow;;
+#body{
+    background: $yellow;
+    z-index: 1;
 }
 
 form{
     .contact-image{
-        text-align: center;
-        img{
-            border-radius: 8%;
-            width: 8%;
-            margin-top: -13%;
-            object-fit: scale-down;
-            background:$white;
-        }
+        z-index: 2;
+        top: 10vh;
+        border-radius: 8%;
+        margin-right: auto;
+        object-fit: cover;
     }
     
     .contact-form {
@@ -23,5 +20,10 @@ form{
         padding-top: 5%;
         padding-bottom: 5%;
     }
-
+    .pagination {
+        justify-content: center;
+    }
 }
+
+
+//formulario_proiectus 

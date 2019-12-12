@@ -9883,20 +9883,17 @@ h3 {
   }
 }
 /* _formulario_proiectus */
-/* _formulario_proiectus */
-body {
+#body {
   background: #ffc107;
+  z-index: 1;
 }
 
 form .contact-image {
-  text-align: center;
-}
-form .contact-image img {
+  z-index: 2;
+  top: 10vh;
   border-radius: 8%;
-  width: 8%;
-  margin-top: -13%;
-  object-fit: scale-down;
-  background: #fff;
+  margin-right: auto;
+  object-fit: cover;
 }
 form .contact-form {
   background: #fff;
@@ -9904,6 +9901,9 @@ form .contact-form {
   margin-bottom: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+form .pagination {
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */
