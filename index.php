@@ -48,10 +48,10 @@
                             <h1>Per als centres educatius.</h1>
                             <p>Els alumnes podran accedir a experiències professionals <br>a través de la col·laboració en projectes en el seu camp d'estudis.</p>
                             <p>
-                                <a type="button" class="btn btn-lg btn-primary video-btn" href="#" data-toggle="modal" data-src="https://www.youtube.com/embed/o4eRrmZPWQs" data-target="#myModal" role="button">Veure vídeo</a>
+                                <a muted type="button" class="btn btn-lg btn-primary video-btn" href="#" data-toggle="modal" data-src="/video/comosedberiaver.mp4" data-target="#myModal" role="button">Veure vídeo</a>
                             </p>
                         </div>
-    
+
                         <!-- Modal -->
                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -65,11 +65,10 @@
 
                                         <!-- 16:9 aspect ratio -->
                                         <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                                            <iframe muted class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="muted" controls muted onloadedmetadata="this.muted = true">
+                                            </iframe>
                                         </div>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -85,6 +84,16 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
+
+        <div class=" mt-3 container">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <audio autoplay controls id="player">
+                        <source src="music/just_do_it.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
         </div>
 
         <div class="container pt-3 pb-4"></div>
@@ -158,6 +167,7 @@
         <?php include_once("includes/footer_unlogged.php"); ?>
         <!--fin footer-->
         <script src="js/video_index.js"></script>
+
 
 </body>
 
